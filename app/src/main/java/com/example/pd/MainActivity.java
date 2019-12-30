@@ -22,12 +22,14 @@ Button scan,display;
         BackgroudTask b=new BackgroudTask();
         b.execute("Start");
         scan.setText(s);
+        scan.setBackgroundResource(R.drawable.scanning);
         scan.setEnabled(false);
         display.setEnabled(false);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 scan.setText("SCAN");
+                scan.setBackgroundResource(R.drawable.round_btn);
                 scan.setEnabled(true);
                 display.setEnabled(true);
             }
