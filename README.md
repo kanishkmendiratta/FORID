@@ -5,6 +5,8 @@ This app can send command to the robot to start scanning the field with a single
 
 This application communicates to the robot through wifi hotspot and does NOT require a working internet connection. The demo video can be viewed [here](https://www.youtube.com/watch?v=Ds5jvB_OP2c&t=2s)
 
+To actually run the application one needs to connect his phone wifi to the network hosted on which raspberry pi is running as you can view demo in the video. After completion of scanning a map is displayed on the screen which tells about the diseased plants on the farming land.
+
 # Installation Guidelines
 Clone the Github Repository Using
 >git clone https://github.com/kanishkmendiratta/FORID-old.git
